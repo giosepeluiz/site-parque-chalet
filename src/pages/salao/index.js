@@ -1,9 +1,16 @@
 import { NextSeo } from "next-seo";
 import Image from "next/image";
-import logo from "../../public/images/avatar-logo-chalet.jpg";
-import styles from "../styles/Home.module.scss";
+import { useEffect } from "react";
+import logo from "../../../public/images/avatar-logo-chalet.jpg";
+import styles from "../../styles/Home.module.scss";
 
 export default function Home() {
+  useEffect(() => {
+    window.location.replace(
+      "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
+    );
+  }, []);
+
   return (
     <div className={styles.container}>
       {/* SEO com personalização - Documentação: https://www.npmjs.com/package/next-seo */}
@@ -36,6 +43,7 @@ export default function Home() {
       {/* Conteúdo principal */}
       <main className={styles.main}>
         <Image src={logo} width="300" height="300" alt="Condomínio Parque Chalet" />
+        <h1 className={styles.redirect}>Redirecionando...</h1>
       </main>
 
       {/* <footer className={styles.footer} /> */}
