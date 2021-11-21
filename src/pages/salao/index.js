@@ -5,11 +5,11 @@ import logo from "../../../public/images/avatar-logo-chalet.jpg";
 import styles from "../../styles/Home.module.scss";
 
 export default function Home() {
-  useEffect(() => {
-    window.location.replace(
-      "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
-    );
-  }, []);
+  // useEffect(() => {
+  //   window.location.replace(
+  //     "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
+  //   );
+  // }, []);
 
   return (
     <div className={styles.container}>
@@ -40,11 +40,21 @@ export default function Home() {
         ]}
       />
 
+      <iframe
+        src="https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo"
+        style={{
+          border: "0px",
+          padding: "0px",
+          margin: "0px",
+          width: "100vw",
+          height: "100vh",
+        }}></iframe>
+
       {/* Conteúdo principal */}
-      <main className={styles.main}>
+      {/* <main className={styles.main}>
         <Image src={logo} width="300" height="300" alt="Condomínio Parque Chalet" />
         <h1 className={styles.redirect}>Redirecionando...</h1>
-      </main>
+      </main> */}
 
       {/* <footer className={styles.footer} /> */}
     </div>
