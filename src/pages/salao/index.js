@@ -1,7 +1,7 @@
 import { NextSeo } from "next-seo";
-import Image from "next/image";
+// import Image from "next/image";
 import { useEffect } from "react";
-import logo from "../../../public/images/avatar-logo-chalet.jpg";
+// import logo from "../../../public/images/avatar-logo-chalet.jpg";
 import styles from "../../styles/Home.module.scss";
 
 export default function Home() {
@@ -43,6 +43,7 @@ export default function Home() {
 
       <iframe
         src="https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo"
+        title="Condomínio Parque Chalet"
         style={{
           border: "0px",
           padding: "0px",
