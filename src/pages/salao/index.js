@@ -9,7 +9,7 @@ export default function Home() {
     // window.location.replace(
     //   "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
     // );
-    alert("Este calendário é apenas para conferência, para reservar fale com o síndico.");
+    alert("Este calendário é apenas para conferência, para reservar fale com o síndico."); // eslint-disable-line no-alert
   }, []);
 
   return (
@@ -50,7 +50,8 @@ export default function Home() {
           margin: "0px",
           width: "100vw",
           height: "100vh",
-        }}></iframe>
+        }}
+      />
 
       {/* Conteúdo principal */}
       {/* <main className={styles.main}>
