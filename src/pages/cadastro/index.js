@@ -41,7 +41,7 @@ export default function Home() {
       />
 
       <iframe
-        src="https://docs.google.com/forms/d/e/1FAIpQLSdyhXFPsZ6DO4gFel_OIgi9Cq54d1IIOIsgA4PAuTVU2KG-Nw"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdyhXFPsZ6DO4gFel_OIgi9Cq54d1IIOIsgA4PAuTVU2KG-Nw/viewform"
         title="Atualização Cadastral - Condomínio Parque Chalet"
         style={{
           border: "0px",
