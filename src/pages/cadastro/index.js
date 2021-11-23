@@ -9,29 +9,28 @@ export default function Home() {
     // window.location.replace(
     //   "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
     // );
-    alert("Este calendário é apenas para conferência, para reservar fale com o síndico."); // eslint-disable-line no-alert
   }, []);
 
   return (
     <div className={styles.container}>
       {/* SEO com personalização - Documentação: https://www.npmjs.com/package/next-seo */}
       <NextSeo
-        title="Reserva Salão de Festas - Condomínio Parque Chalet"
-        description="Reserva Salão de Festas - Condomínio Parque Chalet"
+        title="Atualização Cadastral - Condomínio Parque Chalet"
+        description="Atualização Cadastral - Condomínio Parque Chalet"
         openGraph={{
           type: "website",
           url: "https://parquechalet.com.br",
-          title: "Reserva Salão de Festas - Condomínio Parque Chalet",
-          description: "Reserva Salão de Festas - Condomínio Parque Chalet",
+          title: "Atualização Cadastral - Condomínio Parque Chalet",
+          description: "Atualização Cadastral - Condomínio Parque Chalet",
           images: [
             {
               url: "https://parquechalet.com.br/images/og-banner.jpg",
               width: 800,
               height: 420,
-              alt: "Reserva Salão de Festas - Condomínio Parque Chalet",
+              alt: "Atualização Cadastral - Condomínio Parque Chalet",
             },
           ],
-          site_name: "Reserva Salão de Festas - Condomínio Parque Chalet",
+          site_name: "Atualização Cadastral - Condomínio Parque Chalet",
         }}
         additionalLinkTags={[
           {
@@ -42,8 +41,8 @@ export default function Home() {
       />
 
       <iframe
-        src="https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo"
-        title="Reserva Salão de Festas - Condomínio Parque Chalet"
+        src="https://docs.google.com/forms/d/e/1FAIpQLSdyhXFPsZ6DO4gFel_OIgi9Cq54d1IIOIsgA4PAuTVU2KG-Nw"
+        title="Atualização Cadastral - Condomínio Parque Chalet"
         style={{
           border: "0px",
           padding: "0px",
