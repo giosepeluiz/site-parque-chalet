@@ -36,6 +36,40 @@
   }
 }
 
+.menu-horizontal, .menu-vertical {
+  display:flex;
+  padding: 0;
+    margin: 0;
+ a {
+      text-decoration: none;
+    }
+  li {
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+    line-height: 15px;
+    text-align: center;
+    padding: 10px;
+    width: 120px;
+    background-color: #5B903488;
+    color: #02311d;
+    cursor: pointer;
+    border-radius: 5px;
+
+   
+    
+    &:hover {
+      font-weight: bold;
+      background-color: #074329;
+      color: #5B9034;
+    }
+  }
+}
+
+.menu-vertical {
+  display: none;
+}
+
 .redirect {
   color: #074329;
   border: 3px solid #5B9034;
@@ -123,6 +157,31 @@
     height: rem(16);
     margin-left: rem(8);
   }
+}
+
+
+@include breakpoint('medium-only'){
+
+  .container {
+    overflow: auto;
+  }
+  
+  .logotipo {
+    width: 150px;
+  }
+
+  .menu-horizontal {
+    display: none;
+  }
+
+  .menu-vertical {
+    display: flex;
+    flex-direction: column;
+    li {
+      width: 200px;
+    }
+  }
+
 }
 
 

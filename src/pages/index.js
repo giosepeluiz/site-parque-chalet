@@ -1,5 +1,6 @@
 import { NextSeo } from "next-seo";
 import Image from "next/image";
+import Link from "next/link";
 import logo from "../../public/images/avatar-logo-chalet.png";
 import styles from "../styles/Home.module.scss";
 
@@ -39,7 +40,82 @@ export default function Home() {
           <source src="/videos/background.webm" type="video/webm" />
         </video>
 
-        <Image src={logo} width="300" height="300" alt="Condomínio Parque Chalet" />
+        <Image
+          src={logo}
+          width="300"
+          height="300"
+          alt="Condomínio Parque Chalet"
+          className={styles.logotipo}
+        />
+        <nav>
+          <ul className={styles["menu-horizontal"]}>
+            <Link href="/pdf/regimento-interno.pdf" passHref target="_blank" download>
+              <li>
+                Regimento
+                <br />
+                Interno
+              </li>
+            </Link>
+            <Link href="/pdf/convencao.pdf" passHref target="_blank" download>
+              <li>
+                Convenção de
+                <br />
+                Condomínio
+              </li>
+            </Link>
+            <Link href="/salao" passHref target="_blank">
+              <li>
+                Agenda
+                <br />
+                Salão de Festas
+              </li>
+            </Link>
+            <a
+              href="https://api.whatsapp.com/send?phone=5541996684954"
+              target="_blank"
+              rel="noreferrer">
+              <li>
+                Contato
+                <br />
+                Síndico
+              </li>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5541998932379 "
+              target="_blank"
+              rel="noreferrer">
+              <li>
+                Contato
+                <br />
+                Portaria
+              </li>
+            </a>
+          </ul>
+
+          <ul className={styles["menu-vertical"]}>
+            <a href="/pdf/regimento-interno.pdf" target="_blank">
+              <li>Regimento Interno</li>
+            </a>
+            <a href="/pdf/convencao.pdf" target="_blank">
+              <li>Convenção de Condomínio</li>
+            </a>
+            <Link href="/salao" passHref target="_blank">
+              <li>Agenda Salão de Festas</li>
+            </Link>
+            <a
+              href="https://api.whatsapp.com/send?phone=5541996684954"
+              target="_blank"
+              rel="noreferrer">
+              <li>Contato Síndico</li>
+            </a>
+            <a
+              href="https://api.whatsapp.com/send?phone=5541998932379 "
+              target="_blank"
+              rel="noreferrer">
+              <li>Contato Portaria</li>
+            </a>
+          </ul>
+        </nav>
       </main>
 
       {/* <footer className={styles.footer} /> */}
