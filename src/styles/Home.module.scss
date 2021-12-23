@@ -9,9 +9,31 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-image: url(/images/bg-parque-chalet.png);
-  background-position: center;
-  background-size: cover;
+  overflow: hidden;
+  // background-image: url(/images/bg-parque-chalet.png);
+  // background-position: center;
+  // background-size: cover;
+}
+
+.video {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+@media (max-aspect-ratio: 16/9) {
+  .video {
+      width:auto;
+      height: 100%;
+  }
+}
+
+@media (min-aspect-ratio: 16/9) {
+  .video {
+      width:100%;
+      height: auto;
+  }
 }
 
 .redirect {
@@ -28,9 +50,9 @@
   justify-content: center;
   align-items: center;
 
-  img {
-    border-radius: 50%;
-  }
+  // img {
+  //   border-radius: 50%;
+  // }
 
   .grid {
     display: flex;
