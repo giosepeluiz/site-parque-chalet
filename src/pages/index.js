@@ -1,7 +1,5 @@
 import { NextSeo } from "next-seo";
-import Image from "next/image";
 import Link from "next/link";
-import logo from "../../public/images/avatar-logo-chalet.png";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -39,13 +37,12 @@ export default function Home() {
         <video autoPlay muted loop className={styles.video}>
           <source src="/videos/background.webm" type="video/webm" />
         </video>
-
-        <Image
-          src={logo}
-          width="300"
-          height="300"
-          alt="Condomínio Parque Chalet"
+        {/* eslint-disable-next-line */}
+        <img
           className={styles.logotipo}
+          src="/images/avatar-logo-chalet.png"
+          alt="
+            Condomínio Parque Chalet"
         />
         <nav>
           <ul className={styles["menu-horizontal"]}>

@@ -36,6 +36,8 @@
   }
 }
 
+
+
 .menu-horizontal, .menu-vertical {
   display:flex;
   padding: 0;
@@ -51,7 +53,8 @@
     text-align: center;
     padding: 10px;
     width: 120px;
-    background-color: #5B903488;
+    background-color: #FFF;
+    border: 1px dotted #02311d;
     color: #02311d;
     cursor: pointer;
     border-radius: 5px;
@@ -62,6 +65,7 @@
       font-weight: bold;
       background-color: #074329;
       color: #5B9034;
+      border: 1px solid #5B9034;
     }
   }
 }
@@ -83,6 +87,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+
+  .logotipo {
+    width: 250px;
+    height: 250px;
+    margin-top: -35px;
+    margin-bottom: 20px;
+  }
 
   // img {
   //   border-radius: 50%;
@@ -166,8 +178,9 @@
     overflow: auto;
   }
   
-  .logotipo {
+  .main .logotipo {
     width: 150px;
+    height: 150px;
   }
 
   .menu-horizontal {
