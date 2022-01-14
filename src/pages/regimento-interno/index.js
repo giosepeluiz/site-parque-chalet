@@ -5,12 +5,12 @@ import { useEffect } from "react";
 import styles from "../../styles/Home.module.scss";
 
 export default function Home() {
-  useEffect(() => {
-    // window.location.replace(
-    //   "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
-    // );
-    alert("Este calendário é apenas para conferência, para reservar fale com o síndico."); // eslint-disable-line no-alert
-  }, []);
+  //   useEffect(() => {
+  //     // window.location.replace(
+  //     //   "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
+  //     // );
+  //     alert("Este calendário é apenas para conferência, para reservar fale com o síndico."); // eslint-disable-line no-alert
+  //   }, []);
 
   return (
     <div className={styles.container}>
