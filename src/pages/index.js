@@ -46,14 +46,14 @@ export default function Home() {
         />
         <nav>
           <ul className={styles["menu-horizontal"]}>
-            <Link href="/pdf/regimento-interno.pdf" passHref target="_blank" download>
+            <Link href="/doc/regimento-interno.pdf" passHref target="_blank" download>
               <li>
                 Regimento
                 <br />
                 Interno
               </li>
             </Link>
-            <Link href="/pdf/convencao.pdf" passHref target="_blank" download>
+            <Link href="/doc/convencao.pdf" passHref target="_blank" download>
               <li>
                 Convenção de
                 <br />
