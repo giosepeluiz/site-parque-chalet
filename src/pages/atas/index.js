@@ -34,7 +34,7 @@ export default function Home() {
       />
 
       <iframe
-        src="https://drive.google.com/drive/folders/1-cQrmUbzKrsPdzLVCD7pVZGgnzXltvOz?usp=sharing"
+        src="https://drive.google.com/embeddedfolderview?id=1-cQrmUbzKrsPdzLVCD7pVZGgnzXltvOz#list"
         title="Atas de Assembleias - Condomínio Parque Chalet"
         style={{
           border: "0px",
