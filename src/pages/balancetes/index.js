@@ -34,7 +34,7 @@ export default function Home() {
       />
 
       <iframe
-        src="https://drive.google.com/embeddedfolderview?id=12WqhVI3R5CL5GxXu8hZPY4_KyYaOVoEu#list"
+        src="https://drive.google.com/a/parquechalet.com.br/embeddedfolderview?id=12WqhVI3R5CL5GxXu8hZPY4_KyYaOVoEu#grid"
         title="Balancetes - Condomínio Parque Chalet"
         style={{
           border: "0px",
