@@ -10,7 +10,7 @@ export default function Home() {
     //   "https://calendar.google.com/calendar/u/0/embed?src=tjnqorr3tcei4qe2mhmtthgg7g@group.calendar.google.com&ctz=America/Sao_Paulo",
     // );
     
-    window.location.href = "https://web.ucondo.com.br/login.aspx";
+    window.location.href = "https://web.ucondo.com.br/wwreserva.aspx";
 
   }, []);
 
