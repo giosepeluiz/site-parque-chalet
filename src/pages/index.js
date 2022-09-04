@@ -68,7 +68,7 @@ export default function Home() {
               </li>
             </Link>
             <a
-              href="https://api.whatsapp.com/send?phone=5541996684954"
+              href="https://api.whatsapp.com/send?phone=5541988035027"
               target="_blank"
               rel="noreferrer">
               <li>
@@ -100,7 +100,7 @@ export default function Home() {
               <li>Agenda Salão de Festas</li>
             </Link>
             <a
-              href="https://api.whatsapp.com/send?phone=5541996684954"
+              href="https://api.whatsapp.com/send?phone=5541988035027"
               target="_blank"
               rel="noreferrer">
               <li>Contato Síndico</li>
