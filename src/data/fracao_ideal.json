@@ -1,0 +1,1972 @@
+[
+  {
+    "bloco": "1",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 10.2401,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 17.6723,
+          "area_privat_desc": 24.28,
+          "note": null,
+          "convention_fraction": 0.006941384
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 10.3478,
+          "area_privat_const": 46.53,
+          "estacionamento": 12.0,
+          "area_comum_desc": 17.8576,
+          "area_privat_desc": 16.31,
+          "note": null,
+          "convention_fraction": 0.007014156
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.4972,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.3901,
+          "area_privat_desc": 9.4,
+          "note": null,
+          "convention_fraction": 0.006437739
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.5331,
+          "area_privat_const": 46.53,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.452,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006462108
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "2",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.5081,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.409,
+          "area_privat_desc": 9.62,
+          "note": null,
+          "convention_fraction": 0.006445184
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 9.0378,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.5,
+          "area_comum_desc": 15.5972,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006126343
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.7219,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 16.7778,
+          "area_privat_desc": 14.74,
+          "note": null,
+          "convention_fraction": 0.00659005
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.7738,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.5,
+          "area_comum_desc": 16.8674,
+          "area_privat_desc": 14.74,
+          "note": null,
+          "convention_fraction": 0.006625251
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "3",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.5081,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 9.62,
+          "area_privat_desc": 16.409,
+          "note": null,
+          "convention_fraction": 0.006445184
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.7638,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.8502,
+          "area_privat_desc": 14.74,
+          "note": null,
+          "convention_fraction": 0.006618482
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.7638,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.8502,
+          "area_privat_desc": 14.74,
+          "note": null,
+          "convention_fraction": 0.006618482
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "4",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 10.2401,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 17.6723,
+          "area_privat_desc": 24.28,
+          "note": null,
+          "convention_fraction": 0.006941384
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 10.3575,
+          "area_privat_const": 46.53,
+          "estacionamento": 12.5,
+          "area_comum_desc": 17.8747,
+          "area_privat_desc": 16.31,
+          "note": null,
+          "convention_fraction": 0.007020925
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": "Fração ideal retificada junto ao cartório de imóveis.",
+          "convention_fraction": 0.00611957
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.5432,
+          "area_privat_const": 46.53,
+          "estacionamento": 12.5,
+          "area_comum_desc": 16.4694,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006468877
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "5",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.4623,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 16.3298,
+          "area_privat_desc": 9.54,
+          "note": null,
+          "convention_fraction": 0.006414046
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.4972,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.3901,
+          "area_privat_desc": 9.4,
+          "note": null,
+          "convention_fraction": 0.006437739
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "6",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.4663,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 16.3366,
+          "area_privat_desc": 9.62,
+          "note": null,
+          "convention_fraction": 0.006416753
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "7",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.5042,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.4021,
+          "area_privat_desc": 9.54,
+          "note": null,
+          "convention_fraction": 0.006442476
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.4972,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 16.3901,
+          "area_privat_desc": 9.4,
+          "note": null,
+          "convention_fraction": 0.006437739
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "8",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.5081,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 9.62,
+          "area_privat_desc": 16.409,
+          "note": null,
+          "convention_fraction": 0.006445184
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "9",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.4663,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 16.3366,
+          "area_privat_desc": 9.62,
+          "note": null,
+          "convention_fraction": 0.006416753
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 9.5432,
+          "area_privat_const": 46.53,
+          "estacionamento": 12.5,
+          "area_comum_desc": 16.4694,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006468877
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 9.5432,
+          "area_privat_const": 46.53,
+          "estacionamento": 12.5,
+          "area_comum_desc": 16.4694,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006468877
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.1835,
+          "area_privat_const": 44.0,
+          "estacionamento": 19.8,
+          "area_comum_desc": 15.8489,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006225177
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2675,
+          "area_privat_const": 44.0,
+          "estacionamento": 24.0,
+          "area_comum_desc": 15.9937,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006282041
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  },
+  {
+    "bloco": "10",
+    "unidades": [
+      {
+        "apto": "101",
+        "data": {
+          "area_comum_cob": 9.4623,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 16.3298,
+          "area_privat_desc": 9.54,
+          "note": null,
+          "convention_fraction": 0.006414046
+        }
+      },
+      {
+        "apto": "102",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "103",
+        "data": {
+          "area_comum_cob": 9.4553,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 16.317,
+          "area_privat_desc": 9.4,
+          "note": null,
+          "convention_fraction": 0.006409306
+        }
+      },
+      {
+        "apto": "104",
+        "data": {
+          "area_comum_cob": 8.9858,
+          "area_privat_const": 44.0,
+          "estacionamento": 9.9,
+          "area_comum_desc": 15.5076,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006091142
+        }
+      },
+      {
+        "apto": "201",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "202",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "203",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "204",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "301",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "302",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "303",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "304",
+        "data": {
+          "area_comum_cob": 9.2255,
+          "area_privat_const": 44.0,
+          "estacionamento": 21.9,
+          "area_comum_desc": 15.9212,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006253609
+        }
+      },
+      {
+        "apto": "401",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "402",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "403",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      },
+      {
+        "apto": "404",
+        "data": {
+          "area_comum_cob": 9.0278,
+          "area_privat_const": 44.0,
+          "estacionamento": 12.0,
+          "area_comum_desc": 15.58,
+          "area_privat_desc": 0.0,
+          "note": null,
+          "convention_fraction": 0.006119574
+        }
+      }
+    ]
+  }
+]

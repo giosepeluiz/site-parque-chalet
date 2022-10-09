@@ -1,0 +1,22 @@
+{
+  "fundo_reservas": 0.1,
+  "taxa_cobranca": 0.05,
+  "fundo_benfeitorias": 15,
+  "taxa_boleto": 1.5,
+  "despesas": [
+    {
+      "mes": "Setembro",
+      "ano": 2022,
+      "rateado": 62974.14,
+      "nao_rateado": 0,
+      "id": 0
+    },
+    {
+      "mes": "Outubro",
+      "ano": 2022,
+      "rateado": 68889.46,
+      "nao_rateado": 0,
+      "id": 1
+    }
+  ]
+}
