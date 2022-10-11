@@ -6,6 +6,8 @@ import styles from "../styles/Simulacao.module.scss";
 import Mensalidade from "./Mensalidade";
 import MensalidadePersonalizada from "./MensalidadePersonalizada";
 
+
+// Chamado de funções
 import convertNumber from "../functions/convertNumbers";
 import percentCalc from "../functions/percentCalc";
 import quotaCalc from "../functions/quotaCalc";
