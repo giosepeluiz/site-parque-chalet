@@ -46,41 +46,35 @@ export default function Home() {
         />
         <nav>
           <ul className={styles["menu-horizontal"]}>
-            <Link href="/doc/regimento-interno.pdf" passHref target="_blank" download>
+            <a href="/doc/regimento-interno.pdf" target="_blank">
               <li>
                 Regimento
                 <br />
                 Interno
               </li>
-            </Link>
-            <Link href="/doc/convencao.pdf" passHref target="_blank" download>
+            </a>
+            <a href="/doc/convencao.pdf" target="_blank">
               <li>
                 Convenção de
                 <br />
                 Condomínio
               </li>
-            </Link>
-            <Link href="/salao" passHref target="_blank">
+            </a>
+            <Link href="/salao" passHref>
               <li>
                 Agenda
                 <br />
                 Salão de Festas
               </li>
             </Link>
-            <a
-              href="https://api.whatsapp.com/send?phone=5541988035027"
-              target="_blank"
-              rel="noreferrer">
+            <Link href="/simulacao" passHref>
               <li>
-                Contato
+                Simulação de
                 <br />
-                Síndico
+                Mensalidade
               </li>
-            </a>
-            <a
-              href="https://api.whatsapp.com/send?phone=5541998932379 "
-              target="_blank"
-              rel="noreferrer">
+            </Link>
+            <a href="https://api.whatsapp.com/send?phone=5541998932379 " rel="noreferrer">
               <li>
                 Contato
                 <br />
@@ -90,25 +84,19 @@ export default function Home() {
           </ul>
 
           <ul className={styles["menu-vertical"]}>
-            <a href="/pdf/regimento-interno.pdf" target="_blank">
+            <a href="/pdf/regimento-interno.pdf">
               <li>Regimento Interno</li>
             </a>
-            <a href="/pdf/convencao.pdf" target="_blank">
+            <a href="/pdf/convencao.pdf">
               <li>Convenção de Condomínio</li>
             </a>
-            <Link href="/salao" passHref target="_blank">
+            <Link href="/salao" passHref>
               <li>Agenda Salão de Festas</li>
             </Link>
-            <a
-              href="https://api.whatsapp.com/send?phone=5541988035027"
-              target="_blank"
-              rel="noreferrer">
-              <li>Contato Síndico</li>
-            </a>
-            <a
-              href="https://api.whatsapp.com/send?phone=5541998932379 "
-              target="_blank"
-              rel="noreferrer">
+            <Link href="/simulacao" passHref>
+              <li>Simulação de Mensalidade</li>
+            </Link>
+            <a href="https://api.whatsapp.com/send?phone=5541998932379 " rel="noreferrer">
               <li>Contato Portaria</li>
             </a>
           </ul>

@@ -5,6 +5,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { NextSeo } from "next-seo";
+import Link from "next/link";
 import FracaoIdeal from "../../components/FracaoIdeal";
 import fracao from "../../data/fracao_ideal.json";
 import styles from "../../styles/Simulacao.module.scss";
@@ -43,10 +44,18 @@ const Simulacao = () => {
         ]}
       />
 
+      <Link href="/" passHref>
+        <div className={styles["main-back"]}>↩</div>
+      </Link>
+
       <main
         className={`${styles["main-wrapper"]} ${
           bloco && apto ? styles["main-position-column"] : styles["main-position-row"]
         }`}>
+        <video autoPlay muted loop className={styles.video}>
+          <source src="/videos/background.webm" type="video/webm" />
+        </video>
+
         <div className={styles["main-content"]}>
           <Image src={logo} alt="Logo Parque Chalet" width="200" height="200" />
 
@@ -98,7 +107,6 @@ const Simulacao = () => {
                 <FracaoIdeal
                   url={fracao[bloco].unidades[apto].data}
                   unidade={`Bloco ${fracao[bloco].bloco} - Apartamento ${fracao[bloco].unidades[apto].apto}`}
-                  styles={styles}
                 />
               </div>
               <footer className={styles.footer}>

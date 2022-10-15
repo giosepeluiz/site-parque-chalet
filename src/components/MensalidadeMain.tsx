@@ -1,29 +1,18 @@
-/* eslint-disable no-alert */
-/* eslint-disable no-return-assign */
 /* eslint-disable jsx-a11y/no-onchange */
-import { useState } from "react";
 import taxaCondominial from "../data/taxa_condominial.json";
 import styles from "../styles/Simulacao.module.scss";
 import MensalidadeItem from "./MensalidadeItem";
 
-import valueTest from "../functions/valueTest";
-
-const Mensalidade = ({ fraction }) => {
-  const [rateadas, setRateadas] = useState(0);
-  const [naoRateadas, setNaoRateadas] = useState(0);
-
+const Mensalidade = ({ fraction, mes }) => {
   const values = {
-    despesas: valueTest(valueTest(rateadas) - valueTest(naoRateadas)),
-    rateado: 0,
+    despesas: taxaCondominial.despesas[mes].rateado, // Apresenta as despesas totais do condomínio
+    rateado: taxaCondominial.despesas[mes].rateado * fraction, // Calcula o valor rateado das despesas para cada unidade
     reserva: 0,
     total: 0,
     taxaGarantidora: 0,
     taxaBoleto: taxaCondominial.taxa_boleto,
     fundoBenfeitorias: taxaCondominial.fundo_benfeitorias,
   };
-
-  // Calcula o valor rateado das despesas para cada unidade
-  values.rateado = values.despesas * fraction;
 
   // Calcula o fundo de reservas
   values.reserva = values.rateado * taxaCondominial.fundo_reservas;
@@ -39,38 +28,12 @@ const Mensalidade = ({ fraction }) => {
 
   return (
     <div className={styles["info-total"]}>
-      <h1 className={styles["info-title"]}>Rateio Personalizado</h1>
-
-      <div className={styles["select-wrapper"]}>
-        <label htmlFor="rateado">
-          Valor total das despesas:
-          <br />
-          <input
-            id="rateado"
-            type="text"
-            name="rateado"
-            value={rateadas}
-            onChange={(e) => setRateadas(e.target.value)}
-            className={`${styles.select} ${styles.currency}`}
-          />
-        </label>
-        <label htmlFor="nao-rateado">
-          Valor não rateado:
-          <br />
-          <input
-            id="nao-rateado"
-            type="text"
-            name="nao_rateado"
-            value={naoRateadas}
-            onChange={(e) => setNaoRateadas(e.target.value)}
-            className={`${styles.select} ${styles.currency}`}
-          />
-        </label>
-      </div>
-      <br />
+      <h1 className={styles["info-title"]}>
+        Rateio para {taxaCondominial.despesas[mes].mes} de {taxaCondominial.despesas[mes].ano}
+      </h1>
 
       <MensalidadeItem
-        infoItem="Valor total de despesas:"
+        infoItem="Valor total de despesas no mês anterior:"
         infoValue={values.despesas}
         styles={styles}
       />
@@ -101,7 +64,7 @@ const Mensalidade = ({ fraction }) => {
       />
       <MensalidadeItem
         infoItem="Mensalidade total para a unidade:"
-        infoValue={values.total}
+        infoValue={values.total + values.taxaBoleto}
         styles={styles}
       />
     </div>

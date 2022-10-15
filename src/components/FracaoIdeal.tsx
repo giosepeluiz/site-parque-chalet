@@ -3,9 +3,8 @@ import { useState } from "react";
 import dadosCondominio from "../data/dados_condominio.json";
 import taxaCondominial from "../data/taxa_condominial.json";
 import styles from "../styles/Simulacao.module.scss";
-import Mensalidade from "./Mensalidade";
-import MensalidadePersonalizada from "./MensalidadePersonalizada";
-
+import Mensalidade from "./MensalidadeMain";
+import MensalidadePersonalizada from "./MensalidadeCustom";
 
 // Chamado de funções
 import convertNumber from "../functions/convertNumbers";
@@ -59,7 +58,7 @@ const FracaoIdeal = ({ url, unidade }) => {
             <span className={styles["info-text"]}>
               {convertNumber(calculo.subtotalCob, 2)}m² de{" "}
               {convertNumber(dadosCondominio.area_total_cob, 2)}m² (
-              {percentCalc(calculo.subtotalCob, dadosCondominio.area_total_cob)}%)
+              {percentCalc(calculo.subtotalCob, dadosCondominio.area_total_cob, true)}%)
             </span>
           </p>
         </div>
@@ -96,7 +95,7 @@ const FracaoIdeal = ({ url, unidade }) => {
             <span className={styles["info-text"]}>
               {convertNumber(calculo.subtotalDesc, 2)}m² de{" "}
               {convertNumber(dadosCondominio.area_total_desc, 2)}m² (
-              {percentCalc(calculo.subtotalDesc, dadosCondominio.area_total_desc)}%)
+              {percentCalc(calculo.subtotalDesc, dadosCondominio.area_total_desc, true)}%)
             </span>
           </p>
         </div>
@@ -128,11 +127,16 @@ const FracaoIdeal = ({ url, unidade }) => {
           Quota da Área do Condomínio:
           <br />
           <span className={styles["info-text"]}>
-            {quotaCalc(dadosCondominio.area_condominio, fraction)}m² de{" "}
+            {quotaCalc(dadosCondominio.area_condominio, fraction, true)}m² de{" "}
             {convertNumber(dadosCondominio.area_condominio)}m² (
-            {percentCalc(
-              quotaCalc(dadosCondominio.area_condominio, fraction),
-              dadosCondominio.area_condominio,
+            {convertNumber(
+              Number(
+                percentCalc(
+                  Number(quotaCalc(dadosCondominio.area_condominio, fraction, false)),
+                  dadosCondominio.area_condominio,
+                  false,
+                ),
+              ),
             )}
             %)
           </span>
@@ -140,7 +144,7 @@ const FracaoIdeal = ({ url, unidade }) => {
       </div>
 
       <div className={styles["select-wrapper"]}>
-        <select className={styles.select} onChange={(e) => setMes(e.target.value)}>
+        <select className={styles.select} onChange={(e) => setMes(Number(e.target.value))}>
           <option value="" selected disabled hidden>
             Selecione um mês
           </option>
@@ -155,9 +159,9 @@ const FracaoIdeal = ({ url, unidade }) => {
       </div>
 
       {mes < 0 ? (
-        <MensalidadePersonalizada fraction={fraction} styles={styles} />
+        <MensalidadePersonalizada fraction={fraction} />
       ) : (
-        <Mensalidade fraction={fraction} mes={mes} styles={styles} />
+        <Mensalidade fraction={fraction} mes={mes} />
       )}
     </>
   );
