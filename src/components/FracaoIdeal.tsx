@@ -1,4 +1,3 @@
-/* eslint-disable jsx-a11y/no-onchange */
 import { useState } from "react";
 import dadosCondominio from "../data/dados_condominio.json";
 import taxaCondominial from "../data/taxa_condominial.json";
@@ -144,7 +143,10 @@ const FracaoIdeal = ({ url, unidade }) => {
       </div>
 
       <div className={styles["select-wrapper"]}>
-        <select className={styles.select} onChange={(e) => setMes(Number(e.target.value))}>
+        <select
+          className={styles.select}
+          onChange={(e) => setMes(Number(e.target.value))}
+          onBlur={null}>
           <option value="" selected disabled hidden>
             Selecione um mês
           </option>

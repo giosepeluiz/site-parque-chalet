@@ -1,5 +1,6 @@
 import { NextSeo } from "next-seo";
 import Link from "next/link";
+import Header from "../components/Header";
 import styles from "../styles/Home.module.scss";
 
 export default function Home() {
@@ -32,18 +33,16 @@ export default function Home() {
         ]}
       />
 
+      {/* Cabeçalho */}
+      <Header />
+
       {/* Conteúdo principal */}
+
       <main className={styles.main}>
         <video autoPlay muted loop className={styles.video}>
           <source src="/videos/background.webm" type="video/webm" />
         </video>
         {/* eslint-disable-next-line */}
-        <img
-          className={styles.logotipo}
-          src="/images/avatar-logo-chalet.png"
-          alt="
-            Condomínio Parque Chalet"
-        />
         <nav>
           <ul className={styles["menu-horizontal"]}>
             <a href="/doc/regimento-interno.pdf" target="_blank">
@@ -102,8 +101,6 @@ export default function Home() {
           </ul>
         </nav>
       </main>
-
-      {/* <footer className={styles.footer} /> */}
     </div>
   );
 }

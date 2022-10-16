@@ -1,15 +1,10 @@
-/* eslint-disable no-var */
-/* eslint-disable block-scoped-var */
-/* eslint-disable vars-on-top */
-/* eslint-disable jsx-a11y/no-onchange */
 import { useState } from "react";
-import Image from "next/image";
 import { NextSeo } from "next-seo";
 import Link from "next/link";
 import FracaoIdeal from "../../components/FracaoIdeal";
 import fracao from "../../data/fracao_ideal.json";
 import styles from "../../styles/Simulacao.module.scss";
-import logo from "../../../public/images/avatar-logo-chalet.png";
+import Header from "../../components/Header";
 
 const Simulacao = () => {
   const [bloco, setBloco] = useState(null);
@@ -44,10 +39,15 @@ const Simulacao = () => {
         ]}
       />
 
+      {/* Link persistente de retorno */}
       <Link href="/" passHref>
         <div className={styles["main-back"]}>↩</div>
       </Link>
 
+      {/* Cabeçalho */}
+      <Header />
+
+      {/* Conteúdo principal */}
       <main
         className={`${styles["main-wrapper"]} ${
           bloco && apto ? styles["main-position-column"] : styles["main-position-row"]
@@ -57,12 +57,13 @@ const Simulacao = () => {
         </video>
 
         <div className={styles["main-content"]}>
-          <Image src={logo} alt="Logo Parque Chalet" width="200" height="200" />
-
           <h1 className={styles["main-title"]}>Simulação de Rateio por Fração Ideal</h1>
 
           <nav className={styles["select-wrapper"]}>
-            <select className={styles.select} onChange={(e) => setBloco(e.target.value)}>
+            <select
+              className={styles.select}
+              onChange={(e) => setBloco(e.target.value)}
+              onBlur={null}>
               <option value="" selected disabled hidden>
                 Bloco
               </option>
@@ -78,7 +79,10 @@ const Simulacao = () => {
               <option value="9">Bloco 10</option>
             </select>
 
-            <select className={styles.select} onChange={(e) => setApto(e.target.value)}>
+            <select
+              className={styles.select}
+              onChange={(e) => setApto(e.target.value)}
+              onBlur={null}>
               <option value="" selected disabled hidden>
                 Apartamento
               </option>

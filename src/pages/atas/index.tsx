@@ -6,9 +6,7 @@ import styles from "../../styles/Home.module.scss";
 
 export default function Home() {
   useEffect(() => {
-        
     window.location.href = "https://web.ucondo.com.br/login.aspx";
-
   }, []);
 
   return (
@@ -44,8 +42,6 @@ export default function Home() {
         <Image src={logo} width="300" height="300" alt="Condomínio Parque Chalet" />
         <h1 className={styles.redirect}>Redirecionando para o sistema uCondo...</h1>
       </main>
-
-      {/* <footer className={styles.footer} /> */}
     </div>
   );
 }

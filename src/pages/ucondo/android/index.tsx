@@ -6,9 +6,8 @@ import styles from "../../../styles/Home.module.scss";
 
 export default function Home() {
   useEffect(() => {
-    
-    window.location.href = "https://play.google.com/store/apps/details?id=br.com.ucondo.android&hl=pt&gl=BR";
-
+    window.location.href =
+      "https://play.google.com/store/apps/details?id=br.com.ucondo.android&hl=pt&gl=BR";
   }, []);
 
   return (
@@ -44,8 +43,6 @@ export default function Home() {
         <Image src={logo} width="300" height="300" alt="Condomínio Parque Chalet" />
         <h1 className={styles.redirect}>Redirecionando para Google Play...</h1>
       </main>
-
-      {/* <footer className={styles.footer} /> */}
     </div>
   );
 }

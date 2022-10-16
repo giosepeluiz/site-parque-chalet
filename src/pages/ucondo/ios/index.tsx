@@ -6,9 +6,7 @@ import styles from "../../../styles/Home.module.scss";
 
 export default function Home() {
   useEffect(() => {
-    
     window.location.href = "https://apps.apple.com/br/app/ucondo/id1062839687";
-
   }, []);
 
   return (
